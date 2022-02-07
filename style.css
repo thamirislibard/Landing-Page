@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+    .cabecalho-imagem{
+        height: 100px; 
+    }
+
+    .cabecalho-menu{
+        display: flex;
+        gap: 40px;
+    }
+    .cabecalho-menu-item{
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+    }
+
+    .conteudo{
+        border-top: 0.4px hidden;
+        margin-bottom: 48px;
+    }
+
+    .conteudo-principal{
+        display: flex;
+        height: 430px;
+        justify-content: space-around;
+        background-image: url("portfolio.jpg");
+        background-size: cover;
+    }
+
+    .conteudo-principal-escrito{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .conteudo-principal-escrito-titulo{
+        padding-top: 30px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #ffff;
+        font-weight: 900;
+        font-size: 67px;
+    }
+
+    .conteudo-principal-escrito-subtitulo{
+        padding-top: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #3d3d3d;
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    .conteudo-principal-escrito-botao{
+        background-color: #f8e7e7;
+        height: 50px;
+        width: 175px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #3d3d3d;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .conteudo-principal-escrito-botao:hover{
+        background-color: #d7cccc;
+        color: #000;
+    }
+
+    .conteudo-secundario{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #f8e7e7;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .conteudo-secundario-escrito{
+        font-family: 'Nunito', sans-serif;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 500;
+        padding-left: 200px;
+        padding-right: 220px;
+    }
+
+    .conteudo-secundario-titulo{
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    .conteudo-secundario-imagem{
+        height: 300px;
+        padding-right: 160px;
+    }
+    .conteudo-secundario-paragrafo{
+        font-size: 20px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-imagem{
+        height: 140px;
+    }
+
+
